@@ -2,4 +2,8 @@ lib
 include
 bin
 
-pdfToText/files
+.env
+pdfs
+pdfs_as_images
+product_images
+product_data
