@@ -29,14 +29,13 @@ source bin/activate
 python -m pip install -r requirements.txt
 ```
 
-We use google cloud to extract textual data from images, so make sure you auth against google cloud by following the instructions [here](https://googleapis.dev/python/google-api-core/latest/auth.html).
+We use google cloud to extract textual data from images, so make sure you auth against google cloud by following the instructions [here](https://googleapis.dev/python/google-api-core/latest/auth.html) and have the Vision AI enabled.
 
 ```
 $ gcloud auth application-default login
-
 ```
 
-You'll also need the Vision AI enabled.
+Copy the contents of `.env-template` to `.env` and set the environment variables to your deployment of your machine learning model.
 
 ## Commands
 
