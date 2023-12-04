@@ -23,6 +23,8 @@ Once the prerequisites are installed, open up your shell and run the following t
 ```bash
 # cd into project directory
 cd eppy-data
+# create the virtual env
+virtualenv .
 # activate the virtual env
 source bin/activate
 # install python reqs
